@@ -1,0 +1,11 @@
+#featured-items {
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+}
+
+#featured-items img {
+	height: 150px;
+	width: auto;
+	margin: 0px 10px 0px 10px;
+}
