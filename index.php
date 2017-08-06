@@ -37,26 +37,7 @@
     <div id="featured-items">
         <h1>Featured</h1>
         <hr>
-        <div class="featured">
-            <img src="imgs/invention_freeze_ray.jpg">
-            <h4>Freeze Ray</h4>
-            <p>$150</p>
-        </div>
-        <div class="featured">
-            <img src="imgs/invention_neutrino_bomb.png">
-            <h4>Neutrino Bomb</h4>
-            <p>$150</p>
-        </div>
-        <div class="featured">
-            <img src="imgs/invention_portal_gun.jpg">
-            <h4>Portal Gun</h4>
-            <p>$150</p>
-        </div>
-        <div class="featured">
-            <img src="imgs/invention_space_cruiser.png">
-            <h4>Space Cruiser</h4>
-            <p>$150</p>
-        </div>
+        <?php include 'featured-items.php';?>
     </div>
     <div id="featured-items">
         <h1>Season 1 Inventions</h1>
