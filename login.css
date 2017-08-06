@@ -19,6 +19,7 @@ label{
   height: 40px;
   border-radius: 10px;
   border: solid #fff;
+  font-size: 20px;
 }
 
 .btn-submit {
@@ -35,4 +36,19 @@ label{
 
 .btn-submit:hover {
 	background-color: #D9E735;
+}
+
+#create-account {
+  color: #00ABCC;
+  text-align: center;
+}
+
+#create-account a {
+  color: #00ABCC;
+  text-decoration: none;
+}
+
+#create-account a:hover {
+  color: #00ABCC;
+  text-decoration: underline;
 }

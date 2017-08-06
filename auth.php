@@ -8,7 +8,9 @@
 		foreach ($auth as $element)
 		{
 			if ($element['login'] === $login && $element['passwd'] === $hash)
+			{
 				return TRUE;
+			}
 		}
 		return FALSE;
 	}
