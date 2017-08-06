@@ -4,8 +4,25 @@
 	background-color: #fff;
 }
 
+#featured-items h1 {
+	padding-bottom: 15px;
+}
+
+#featured-items hr {
+	margin-bottom: 15px;
+}
+
 #featured-items img {
 	height: 150px;
-	width: auto;
+	width: 200px;
 	margin: 0px 10px 0px 10px;
+}
+
+.featured {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.featured p {
+	text-align: center;
 }
