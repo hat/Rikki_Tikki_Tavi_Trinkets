@@ -25,5 +25,15 @@
         <hr>
         <?php include 'featured_items.php';?>
     </div>
+    <div id="featured-items">
+        <h1>Season 1 Inventions</h1>
+        <hr>
+        <?php include 'featured_s1.php';?>
+    </div>
+    <div id="featured-items">
+        <h1>Season 2 Inventions</h1>
+        <hr>
+        <?php include 'featured_s2.php';?>
+    </div>
 </body>
 </html>
