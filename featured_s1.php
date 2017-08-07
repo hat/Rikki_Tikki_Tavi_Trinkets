@@ -4,6 +4,7 @@ echo "hahaha";
 
 //require("connection.php");
 
+echo "LINK IN IN";
 echo "Link: {$link}";
 
 $query="SELECT * FROM products";
