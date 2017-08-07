@@ -30,7 +30,7 @@
                 <li>Laser Guns</li>
                 <li>Guns</li>
             </ul>
-            <li><a href="basket.php">Cart</a></li>
+            <li><a href="cart.php">Cart</a></li>
 <?php 
   
     if(isset($_SESSION['cart'])){ 
