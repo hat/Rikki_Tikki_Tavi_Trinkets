@@ -2,21 +2,21 @@
 
 echo "hahaha";
 
-$link = mysqli_connect("localhost","tinyRick","Wubalubadubdub!","tinyRick") or die("Error " . mysqli_error($link)); 
+include 'connection.php';
 
-echo $link;
-echo "LINK IN IN";
-echo "Link: {$link}";
+if ($result = mysqli_query($link, "SELECT * FROM products", MYSQLI_USE_RESULT)) {
 
-$query="SELECT * FROM products";
-$results = mysqli_query($link, $query);
-
-echo "BOOM SHAKALAKA";
-echo "{$results}";
-
-while ($row = mysqli_fetch_array($results)) {
-    echo "{$row}";
+	echo $result;
+    /* Note, that we can't execute any functions which interact with the
+       server until result set was closed. All calls will return an
+       'out of sync' error */
+    if (!mysqli_query($link, "SET @a:='this will not work'")) {
+        printf("Error: %s\n", mysqli_error($link));
+    }
+    mysqli_free_result($result);
 }
+else
+	echo "DIDNT WORK FUCKER!";
 
 // $file = fopen("featured_s1", "r");
 // if ($file) {
