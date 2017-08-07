@@ -1,17 +1,17 @@
-<?php
-// session_start();
-// require("config.php");
-// if (isset$_GET['page'])
-// {
-//    $pages = array("products", "cart");
-//    if (in_array($_GET['page'], $pages))
-//        $_page = $_GET['page'];
-//    else
-//        $_page = 'products';
-// }
-// else
-//    $_page = 'products';
-?>
+<?php 
+    session_start(); 
+    require("config.php"); 
+    if(isset($_GET['page']))
+    {       
+        $pages=array("products", "cart");       
+        if(in_array($_GET['page'], $pages))              
+            $_page=$_GET['page'];
+        else  
+            $_page="products"; 
+    }
+    else          
+        $_page="products"; 
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +57,7 @@
           
     }else{ 
           
-        echo "<p>Your Cart is empty. Please add some products.</p>"; 
+        echo "Your Cart is empty. Please add some products."; 
           
     } 
   
