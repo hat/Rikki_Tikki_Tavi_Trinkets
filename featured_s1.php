@@ -2,7 +2,7 @@
 
 echo "hahaha";
 
-require("connection.php");
+//require("connection.php");
 
 echo "Link: {$link}";
 
