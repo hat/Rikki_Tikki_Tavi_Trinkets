@@ -8,7 +8,7 @@ echo $link;
 
 if ($result = mysqli_query($link, "SELECT * FROM products", MYSQLI_USE_RESULT)) {
 
-	echo $result;
+	echo "Worked FUCKER!";
     /* Note, that we can't execute any functions which interact with the
        server until result set was closed. All calls will return an
        'out of sync' error */
