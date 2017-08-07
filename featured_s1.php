@@ -4,9 +4,10 @@ echo "hahaha";
 
 require("connection.php");
 
-$query="SELECT * FROM products ORDER BY RAND() LIMIT 4";
+$query="SELECT * FROM products";
 $results = mysqli_query($link, $query);
 
+echo "BOOM SHAKALAKA";
 echo "{$results}";
 
 while ($row = mysqli_fetch_array($results)) {
