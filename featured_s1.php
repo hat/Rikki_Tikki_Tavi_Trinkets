@@ -1,8 +1,10 @@
 <?php
 
 
-$query="SELECT column FROM table ORDER BY RAND() LIMIT 4";
+$query="SELECT * FROM products ORDER BY RAND() LIMIT 4";
 $results = mysql_query($query);
+
+echo "{$results}";
 
 while ($row = mysql_fetch_array($results)) {
     echo "{$row}";
