@@ -1,6 +1,6 @@
 <?php
 
-echo "hahaha";
+echo "FUCK IT ALL!!!";
 
 include 'connection.php';
 
