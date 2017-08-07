@@ -4,6 +4,8 @@ echo "hahaha";
 
 include 'connection.php';
 
+echo $link;
+
 if ($result = mysqli_query($link, "SELECT * FROM products", MYSQLI_USE_RESULT)) {
 
 	echo $result;
