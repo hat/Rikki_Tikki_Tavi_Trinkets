@@ -16,7 +16,7 @@
                 <li>Laser Guns</li>
                 <li>Guns</li>
             </ul>
-            <li><a href="basket.php">Basket</a></li>
+            <li><a href="cart.php">Basket</a></li>
             <li><a href="login.php">Login</a></li>
         </ul>
     </nav>
@@ -29,7 +29,7 @@
     </form>
     <div id="create-account">
         <p>or</p>
-        <h4><a href="/create_new_account.php">Create an Account</a></h4>
+        <h4><a href="/newaccount.php">Create an Account</a></h4>
     </div>
 </body>
 </html>
