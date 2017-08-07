@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Create Account</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
@@ -21,15 +21,18 @@
         </ul>
     </nav>
     <form action="auth.php" method="POST">
+        <h2>New Account</h2>
         <label>Username: <input class="input-box" type="text" name="login" value="" /></label>
         <br />
         <label>Password: <input class="input-box" type="password" name="passwd" value="" /></label>
+        <br />
+        <label>Confirm Password: <input class="input-box" type="confirm-password" name="confirm-passwd" value="" /></label>
         <br />
         <input class="btn-submit" type="submit" name="submit" value="OK"/>
     </form>
     <div id="create-account">
         <p>or</p>
-        <h4><a href="/create_new_account.html">Create an Account</a></h4>
+        <h4><a href="#">Create an Account</a></h4>
     </div>
 </body>
 </html>

@@ -37,7 +37,7 @@
     <div id="featured-items">
         <h1>Featured</h1>
         <hr>
-        <?php include 'featured-items.php';?>
+        <?php include 'featured_items.php';?>
     </div>
     <div id="featured-items">
         <h1>Season 1 Inventions</h1>
