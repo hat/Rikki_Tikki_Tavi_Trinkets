@@ -2,8 +2,9 @@
 
 echo "hahaha";
 
-include "connection.php";
+include 'connection.php';
 
+echo $link;
 echo "LINK IN IN";
 echo "Link: {$link}";
 
