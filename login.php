@@ -16,7 +16,7 @@
                 <li>Laser Guns</li>
                 <li>Guns</li>
             </ul>
-            <li><a href="cart.php">Basket</a></li>
+            <li><a href="cart.php">Cart</a></li>
             <li><a href="login.php">Login</a></li>
         </ul>
     </nav>
