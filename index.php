@@ -1,7 +1,17 @@
-<?php 
+    <?php 
     session_start(); 
-    require("connection.php"); 
-?> 
+    require("includes/connection.php"); 
+    if(isset($_GET['page']))
+    {
+        $pages=array("products", "cart"); 
+        if(in_array($_GET['page'], $pages))  
+            $_page=$_GET['page'];
+        else
+            $_page="products";      
+    }
+    else
+        $_page="products"; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
