@@ -1,7 +1,7 @@
 <?php
 	function auth($login, $passwd)
 	{
-		if (!($file = @file_get_contents("../private/passwd")))
+		if (!($file = @file_get_contents("/private/passwd")))
 			return FALSE;
 		$auth = unserialize($file);
 		$hash = hash("sha256", $passwd);

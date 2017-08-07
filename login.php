@@ -9,15 +9,15 @@
 </head>
 <body>
     <nav>
-        <a href="index.html"><img class="logo" src="imgs/Rikki_Tikki_Tavi_Logo.png"/></a>
+        <a href="index.php"><img class="logo" src="imgs/Rikki_Tikki_Tavi_Logo.png"/></a>
         <ul>
-            <li><a href="gadgets.html">Gadgets</a></li>
+            <li><a href="gadgets.php">Gadgets</a></li>
             <ul>
                 <li>Laser Guns</li>
                 <li>Guns</li>
             </ul>
-            <li><a href="basket.html">Basket</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><a href="basket.php">Basket</a></li>
+            <li><a href="login.php">Login</a></li>
         </ul>
     </nav>
     <form action="login_script.php" method="POST">
@@ -29,7 +29,7 @@
     </form>
     <div id="create-account">
         <p>or</p>
-        <h4><a href="/create_new_account.html">Create an Account</a></h4>
+        <h4><a href="/create_new_account.php">Create an Account</a></h4>
     </div>
 </body>
 </html>

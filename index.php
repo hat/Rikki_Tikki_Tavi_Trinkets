@@ -23,14 +23,14 @@
 </head>
 <body>
     <nav>
-        <a href="index.html"><img class="logo" src="imgs/Rikki_Tikki_Tavi_Logo.png"/></a>
+        <a href="index.php"><img class="logo" src="imgs/Rikki_Tikki_Tavi_Logo.png"/></a>
         <ul>
-            <li><a href="gadgets.html">Gadgets</a></li>
+            <li><a href="gadgets.php">Gadgets</a></li>
             <ul>
                 <li>Laser Guns</li>
                 <li>Guns</li>
             </ul>
-            <li><a href="basket.html">Basket</a></li>
+            <li><a href="basket.php">Basket</a></li>
             <li><a href="login.php">Login</a></li>
         </ul>
     </nav>
