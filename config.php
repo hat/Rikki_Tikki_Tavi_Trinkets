@@ -1,7 +1,7 @@
 <?php
    define('DB_SERVER', 'localhost:8888');
-   define('DB_USERNAME', 'root');
-   define('DB_PASSWORD', 'password');
+   define('DB_USERNAME', 'tinyRick');
+   define('DB_PASSWORD', 'Wubalubadubdub!');
    define('DB_DATABASE', 'tinyRick');
 
    $conn = mysql_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
