@@ -5,11 +5,11 @@ echo "hahaha";
 require("connection.php");
 
 $query="SELECT * FROM products ORDER BY RAND() LIMIT 4";
-$results = mysql_query($query);
+$results = mysqli_query($link, $query);
 
 echo "{$results}";
 
-while ($row = mysql_fetch_array($results)) {
+while ($row = mysqli_fetch_array($results)) {
     echo "{$row}";
 }
 
