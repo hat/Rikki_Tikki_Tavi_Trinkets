@@ -9,9 +9,9 @@
 		err();
 	if (!$_POST['login'] || !$_POST['passwd'] || !$_POST['cpasswd'])
 		echo "No post!";
-	if (!is_dir('/private'))
-		mkdir('/private/');
-	$serialfile = "/private/passwd";
+	if (!is_dir('private'))
+		mkdir('private/');
+	$serialfile = "private/passwd";
 	$bkey = 0;
 	if (file_exists($serialfile))
 	{
