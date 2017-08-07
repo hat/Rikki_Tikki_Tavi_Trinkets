@@ -1,5 +1,6 @@
 <?php
 
+require("connection.php");
 
 $query="SELECT * FROM products ORDER BY RAND() LIMIT 4";
 $results = mysql_query($query);
