@@ -1,5 +1,7 @@
 <?php
 
+echo "hahaha";
+
 require("connection.php");
 
 $query="SELECT * FROM products ORDER BY RAND() LIMIT 4";
