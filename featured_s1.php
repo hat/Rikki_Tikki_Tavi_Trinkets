@@ -4,6 +4,8 @@ echo "hahaha";
 
 require("connection.php");
 
+echo "Link: {$link}";
+
 $query="SELECT * FROM products";
 $results = mysqli_query($link, $query);
 
